@@ -22,7 +22,7 @@ body {
   line-height: 1.4;
   color: #212529;
   text-align: left;
-  background-color: #fff; }
+  background-color: #FFF3E6; }
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -7837,5 +7837,8 @@ body {
 .container {
   padding-left: 20px;
   padding-right: 20px; }
+
+.header {
+  background-color: #FFF3E6; }
 
 /*# sourceMappingURL=style.css.map */
