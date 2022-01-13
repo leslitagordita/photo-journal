@@ -7841,4 +7841,8 @@ body {
 .header {
   background-color: #FFF3E6; }
 
+.content img {
+  border: 5px solid #555;
+  max-width: 100%; }
+
 /*# sourceMappingURL=style.css.map */
