@@ -51,8 +51,9 @@ body {
   padding-right: $grid-gutter-width;
 }
 
+/*
 .header {
-  /*background-color: #FFF3E6;*/
+  background-color: #FFF3E6;
 }
 
 .content {
@@ -60,12 +61,10 @@ body {
   p img {
     border: 5px solid #555;
   }
+*/
 
-  /*p {
-    //background-color: white;
-  }*/
-}
 
+/*Custom Themes for Pages */
 .custom1 {
   background-color: #F4B860;
   border-color: #C83E4D;
@@ -83,4 +82,8 @@ body {
   }
 
 }
+/* End Custom Themes for Pages */
 
+.main-menu > ul > li{
+  font-size: 28px;
+}

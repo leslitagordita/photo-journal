@@ -7838,16 +7838,18 @@ body {
   padding-left: 20px;
   padding-right: 20px; }
 
+/*
 .header {
-  /*background-color: #FFF3E6;*/ }
+  background-color: #FFF3E6;
+}
 
 .content {
-  /*p {
-    //background-color: white;
-  }*/ }
-  .content p img {
-    border: 5px solid #555; }
 
+  p img {
+    border: 5px solid #555;
+  }
+*/
+/*Custom Themes for Pages */
 .custom1 {
   background-color: #F4B860;
   border-color: #C83E4D;
@@ -7858,5 +7860,9 @@ body {
     background-color: #F4D6CC; }
   .custom1 p img {
     border: 10px solid #C83E4D; }
+
+/* End Custom Themes for Pages */
+.main-menu > ul > li {
+  font-size: 28px; }
 
 /*# sourceMappingURL=style.css.map */
