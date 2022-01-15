@@ -34,13 +34,21 @@
     {{ end }}
 
     {{ if $displaySidebar }}
+    {{ with .Params.customtheme }}
+    <div class="container{{.}} pt-2 pt-md-6 pb-3 pb-md-6">
+    {{ end }}
+    {{ with not .Params.customtheme }}
     <div class="container pt-2 pt-md-6 pb-3 pb-md-6">
-      <div class="row">
+    {{ end }}
+      <div class="row d-flex justify-content-center">
+        <!--Added so the sidebar does not display in single pages-->
+        {{ if and ($displaySidebar) (not .IsPage) }}
         <div class="col-12 col-md-3 mb-3">
           <div class="sidebar">
-            {{ partial "sidebar.html" . }}
+          {{ partial "sidebar.html" . }}
           </div>
         </div>
+        {{ end }}
         <div class="col-12 col-md-9">
           {{ block "main" . }}
           {{ end }}

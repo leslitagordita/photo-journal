@@ -3,16 +3,16 @@ title: 'Install Hugo'
 date: 2019-02-11T19:27:37+10:00
 weight: 2
 image: '/images/blob.jpg'
+customtheme: '-custom1'
 ---
-
-To use this theme you will need to have Hugo installed. If you don't already have Hugo installed please follow the official [installation guide](https://gohugo.io/getting-started/installing/)
 
 ![blob](/images/blob.jpg)
 
-### Check Hugo Version
+{{< paragraph >}}
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-This theme uses [Hugo Pipes](https://gohugo.io/hugo-pipes/scss-sass/) to compile SCSS and minify assets. Please make sure you have the `Hugo Extended` version installed. If you are not using the extended version this theme will not not compile.
+nosidebar: true
+{{</ paragraph >}}
 
-```
-hugo version
-```
+
+

@@ -44,7 +44,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.4;
-  color: $blue;
+  color: $black;
 }
 .container {
   padding-left: $grid-gutter-width;
@@ -52,15 +52,31 @@ body {
 }
 
 .header {
-  background-color: #FFF3E6;
+  /*background-color: #FFF3E6;*/
 }
 
 .content {
 
-  img {
+  p img {
     border: 5px solid #555;
-    max-width: 100%
   }
+
+  /*p {
+    //background-color: white;
+  }*/
 }
 
+.container-custom1 {
+  background-color: #F4B860;
+  border-color: #C83E4D;
+  color: #32373B;
+
+  p.custom1 {
+    background-color: #F4D6CC;
+  }
+  p img {
+    border: 10px solid #C83E4D;
+  }
+
+}
 
