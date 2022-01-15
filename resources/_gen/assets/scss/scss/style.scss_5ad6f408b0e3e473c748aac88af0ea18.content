@@ -7852,6 +7852,8 @@ body {
   background-color: #F4B860;
   border-color: #C83E4D;
   color: #32373B; }
+  .custom1 .header.custom1 {
+    background-color: #F4D6CC; }
   .custom1 p.custom1 {
     background-color: #F4D6CC; }
   .custom1 p img {
