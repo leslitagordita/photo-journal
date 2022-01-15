@@ -3,7 +3,7 @@ title: 'Install Hugo'
 date: 2019-02-11T19:27:37+10:00
 weight: 2
 image: '/images/blob.jpg'
-customtheme: '-custom1'
+customtheme: 'custom1'
 ---
 
 ![blob](/images/blob.jpg)

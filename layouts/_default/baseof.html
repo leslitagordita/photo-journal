@@ -23,7 +23,12 @@
 
 <body class='page {{ block "body_classes" . }}{{ end }}'>
   {{ partial "main-menu-mobile.html" . }}
+  {{ with .Params.customtheme }}
+  <div class="wrapper {{.}}">
+  {{ end }}
+  {{ with not .Params.customtheme }}
   <div class="wrapper">
+  {{ end }}
     {{ partial "header.html" . }}
 
     {{ $displaySidebar := false }}
@@ -35,7 +40,7 @@
 
     {{ if $displaySidebar }}
     {{ with .Params.customtheme }}
-    <div class="container{{.}} pt-2 pt-md-6 pb-3 pb-md-6">
+    <div class="container {{.}} pt-2 pt-md-6 pb-3 pb-md-6">
     {{ end }}
     {{ with not .Params.customtheme }}
     <div class="container pt-2 pt-md-6 pb-3 pb-md-6">

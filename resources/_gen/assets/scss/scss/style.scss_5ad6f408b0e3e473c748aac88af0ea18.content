@@ -7848,13 +7848,13 @@ body {
   .content p img {
     border: 5px solid #555; }
 
-.container-custom1 {
+.custom1 {
   background-color: #F4B860;
   border-color: #C83E4D;
   color: #32373B; }
-  .container-custom1 p.custom1 {
+  .custom1 p.custom1 {
     background-color: #F4D6CC; }
-  .container-custom1 p img {
+  .custom1 p img {
     border: 10px solid #C83E4D; }
 
 /*# sourceMappingURL=style.css.map */
