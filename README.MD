@@ -19,4 +19,4 @@ This is a work in progress
 
 1. Create environment variables to store your Object Storage bucket credentials.
 1. Create .github/workflows/workflow.yml directories and file.
-1. Add the configurations from https://github.com/marketplace/actions/s3-sync to your workflow.yml file.
+1. Add the configurations from https://github.com/marketplace/actions/use-s3cmd to your workflow.yml file.
