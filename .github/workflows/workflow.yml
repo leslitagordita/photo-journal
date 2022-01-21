@@ -8,5 +8,5 @@
 
 - name: Interact with object storage
   run: |
-     s3cmd --no-mime-magic --acl-public --delete-removed --delete-after sync public/ s3://photo-journal
-     s3cmd info s3://photo-journal
+    s3cmd --no-mime-magic --acl-public --delete-removed --delete-after sync public/ s3://photo-journal
+    s3cmd info s3://photo-journal
