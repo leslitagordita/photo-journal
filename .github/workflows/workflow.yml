@@ -19,3 +19,6 @@ jobs:
       run: |
         s3cmd --no-mime-magic --acl-public --delete-removed --delete-after sync public s3://photo-journal
         s3cmd info s3://photo-journal
+    - name: List files in the repository
+      run: |
+          ls -la
