@@ -8,6 +8,8 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+    - name: Checkout Repo
+      uses: actions/checkout@master
     - name: Set up S3cmd cli tool
       uses: s3-actions/s3cmd@v1.1
       with:
