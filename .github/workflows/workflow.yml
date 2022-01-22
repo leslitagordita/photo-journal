@@ -22,5 +22,5 @@ jobs:
           ls -la
     - name: Interact with object storage
       run: |
-        s3cmd --no-mime-magic --acl-public --delete-removed --delete-after sync public s3://www.rikuni.site
+        s3cmd --no-mime-magic --acl-public --delete-removed --delete-after sync public/ s3://www.rikuni.site
         s3cmd info s3://www.rikuni.site
