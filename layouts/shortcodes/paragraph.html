@@ -1,9 +1,9 @@
 <div class="d-flex justify-content-center w-100 p-3">
     <!--Paragraph shortcode makes text 75% the width of the parent div-->
     {{ with $.Page.Params.customtheme }}
-    <p class="{{.}} w-75 p-3">{{ $.Inner }}</p>
+    <p class="{{.}} w-lg-75 w-xl-75 w-sm-100 w-md-100 p-3">{{ $.Inner }}</p>
     {{ end }}
     {{ with not $.Page.Params.customtheme }}
-    <p class="w-75 p-3">{{ $.Inner }}</p>
+    <p class="w-lg-75 w-xl-75 w-sm-100 w-md-100 p-3">{{ $.Inner }}</p>
     {{ end }}
 </div>
